@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Jasmine"
+  },
+  "text": {
+    "more": "",
+    "intro": "This network illustrates Twitch broadcasting network, characterized by common viewers shared bewteen streamers, before Twitch’s ban of production of gambling sites lacking U.S. license on Oct 18, 2022. Nodes are color-coded to represent different groups: red denotes the control group, blue represents the unbanned (treated) group, and green denotes the banned (treated) group. An edge is illustrated here if two streamers have at least 1000 viewers in common.",
+    "title": "Twitch-Gambling"
+  },
+  "legend": {
+    "edgeLabel": "Common Viewers",
+    "colorLabel": "Group",
+    "nodeLabel": "Streamer"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
